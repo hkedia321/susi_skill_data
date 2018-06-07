@@ -1,0 +1,15 @@
+::author_email harshit.kedia2015@vit.ac.in
+::name testingAfterEmail
+::author Harshit Kedia
+::author_url https://github.com/hkedia321
+::description A testing skill for checking author email 
+::dynamic_content Yes
+::developer_privacy_policy <link>
+::image images/susi icon.png
+::terms_of_use <link>
+
+
+A example query
+!example:A example query
+!expect:<The answer expected for the above example>
+Answer for the user query
