@@ -1,0 +1,14 @@
+::name testinging21
+::author Harshit Kedia
+::author_url harshitkedia.tech
+::description a testing
+::dynamic_content Yes
+::developer_privacy_policy no
+::image images/susi icon.png
+::terms_of_use hihi
+
+
+User query1|query2|quer3....
+!example:<The question that should be shown in public skill displays>
+!expect:<The answer expected for the above example>
+Answer for the user query
