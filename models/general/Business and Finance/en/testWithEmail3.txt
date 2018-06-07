@@ -1,0 +1,13 @@
+::author_email hahaahhon@gmail.com
+::name testWithEmail3
+::author Harshit
+::author_url http://harshitkedia.tech
+::description A testing skill to add email
+::dynamic_content Yes
+::developer_privacy_policy <link>
+::image images/susi icon.png
+::terms_of_use <link>
+
+
+rule my life
+ok sir
