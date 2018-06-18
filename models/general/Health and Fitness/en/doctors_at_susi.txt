@@ -1,0 +1,20 @@
+::author_email prateekkol21@gmail.com
+::name Doctors at SUSI
+::author Prateek Chanda
+::author_url https://github.com/prateekiiest
+::description Get the Best Doctors from your home
+::dynamic_content Yes
+::developer_privacy_policy
+::image images/red_cross_round_red.png
+::terms_of_use
+
+
+Who are doctors with names * having speciality * 
+!example:Who are doctors with names Alen having speciality Diabetes
+!expect:Steven Toschi
+!console:Doctors with name $1$ having speciality $2$ are $object$
+{
+    "url":"https://api.betterdoctor.com/2016-03-01/doctors?first_name=$1$&query=$2$&skip=0&limit=10&user_key=0ecd452cbc6ded81f018d01b1a472740",
+    "path":"$.data[0]"
+}
+eol
